@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
     <div className={inter.className}>
       <header>
         <Link href="/">
-          <h1>The Bubbly Baker</h1>
+          <h1 className=" text-3xl font-bold">The Bubbly Baker</h1>
         </Link>
       </header>
       <Component {...pageProps} />

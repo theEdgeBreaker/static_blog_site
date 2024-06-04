@@ -30,7 +30,7 @@ export default function RecipePage({ post, content }) {
   return (
     <main>
       <article>
-        <h1>{post.title}</h1>
+        <h1 className="">{post.title}</h1>
         <Markdown>{content}</Markdown>
       </article>
     </main>
