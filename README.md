@@ -37,8 +37,7 @@ Follow these steps to set up and run the project locally.
 4. **Open your browser** and visit `http://localhost:3000`.
 
 ## Live Demo
-You can view the live demo of the project [here](https://your-live-demo-link).
+You can view the live demo of the project [here]([https://your-live-demo-link](https://static-blog-site.vercel.app/)).
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
