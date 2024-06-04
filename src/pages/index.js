@@ -1,8 +1,15 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
+import getPostMetadata from "@/utils/getPostMetadata";
+import SearchView from "@/components/SearchView";
 
-const inter = Inter({ subsets: ["latin"] });
+export async function getStaticProps() {
+  const postMetadata = getPostMetadata();
+  return { props: { postMetadata } };
+}
 
-export default function Home() {
-  return <div>Hello World!</div>;
+export default function Home({ postMetadata }) {
+  return (
+    <main>
+      <SearchView postMetadata={postMetadata} />
+    </main>
+  );
 }
