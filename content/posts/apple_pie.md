@@ -7,7 +7,7 @@ description: "A traditional pie with a flaky crust and a sweet, spiced apple fil
 
 # Classic Apple Pie
 
-## **Ingredients**
+## Ingredients
 
 ### Pie Crust
 
